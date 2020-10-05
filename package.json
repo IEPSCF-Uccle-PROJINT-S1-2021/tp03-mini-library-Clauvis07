@@ -4,5 +4,20 @@
   "private": true,
   "scripts": {
     "start": "npm app.js"
+  },
+  "description": "Votre objectif pour ce TP est de réaliser un mini-site affichant une collection de livres. Un formulaire permet de choisir la catégorie littéraire. En appuyant sur un bouton, vous arrivez sur une autre page présentant la collection correspondante.",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IEPSCF-Uccle-PROJINT-S1-2021/tp03-mini-library-Clauvis07.git"
+  },
+  "author": "youmbi wouakam clauvis",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/IEPSCF-Uccle-PROJINT-S1-2021/tp03-mini-library-Clauvis07/issues"
+  },
+  "homepage": "https://github.com/IEPSCF-Uccle-PROJINT-S1-2021/tp03-mini-library-Clauvis07#readme",
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
