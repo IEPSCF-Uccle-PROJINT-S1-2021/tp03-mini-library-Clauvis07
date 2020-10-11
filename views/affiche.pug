@@ -1,9 +1,23 @@
 doctype html
 html
-     head
-        title TP03
-     body
-        h1 Hello
-
-        p
-            a(href='/') Retour au Menu
+  head
+    title= "Affichage livres"
+    style
+      include ./style.css
+  body
+    h1 TPO3 - Mini-bibliothèque
+    h3 Livres trouvés :
+    table#tableLivre
+      thead
+        tr
+          th Auteur
+          th Titre
+          th Catégorie
+        tbody
+          each livre in categorieLivre
+            tr
+              td= livre.author
+              td= livre.title
+              td= livre.category
+    p
+      a(href = "/") Retour à la liste des catégories
