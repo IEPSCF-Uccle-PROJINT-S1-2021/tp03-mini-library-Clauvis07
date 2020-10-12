@@ -35,7 +35,7 @@ router.post('/afficheListe',(req,res)=>{
    }
  }
 
- res.render("Liste",{categorieLivre:categorieLivre});
+ res.render("affiche",{categorieLivre:categorieLivre});
 });
 
 module.exports = router; // exporte le module Router
